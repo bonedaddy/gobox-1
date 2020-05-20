@@ -13,7 +13,7 @@ import (
 
 	"time"
 
-	"github.com/guerillagrow/beego"
+	"github.com/astaxie/beego"
 	"gobot.io/x/gobot/drivers/gpio"
 )
 

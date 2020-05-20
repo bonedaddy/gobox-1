@@ -3,8 +3,8 @@ package controllers
 import (
 	"github.com/guerillagrow/gobox/models"
 
-	//"github.com/guerillagrow/beego"
-	"github.com/guerillagrow/beego/context"
+	//"github.com/astaxie/beego"
+	"github.com/astaxie/beego/context"
 )
 
 func init() {

@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/guerillagrow/jstorage"
+	"github.com/guerillagrow/gobox/pkg/jstorage"
 
 	"github.com/guerillagrow/gobox/models/common"
 )

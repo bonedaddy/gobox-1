@@ -3,7 +3,7 @@ package controllers
 import (
 	//"net/http"
 
-	"github.com/guerillagrow/beego"
+	"github.com/astaxie/beego"
 )
 
 type MainController struct {

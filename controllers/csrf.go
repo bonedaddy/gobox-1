@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/guerillagrow/beego/context"
+	"github.com/astaxie/beego/context"
+	"github.com/gofrs/uuid"
 	//"github.com/muesli/cache2go"
-	"github.com/satori/go.uuid"
 )
 
 // !TODO // !DEBUG

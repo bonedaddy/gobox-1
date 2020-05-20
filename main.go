@@ -12,11 +12,10 @@ import (
 
 	"github.com/guerillagrow/gobox/controllers"
 	//"github.com/guerillagrow/gobox/custom/xsession"
-	"github.com/guerillagrow/gobox/lib/utils"
 	"github.com/guerillagrow/gobox/models"
 	_ "github.com/guerillagrow/gobox/routers"
 
-	"github.com/guerillagrow/beego"
+	"github.com/astaxie/beego"
 )
 
 var VERSION string
@@ -31,7 +30,6 @@ func PprofServe() {
 
 func main() {
 
-	utils.LocalVersion = VERSION
 	sigs := make(chan os.Signal, 1)
 	//done := make(chan bool, 1)
 

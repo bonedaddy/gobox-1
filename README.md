@@ -268,7 +268,7 @@ So in the next release I think we will get much better performance for the web f
 There also might come a userfriendly command line setup to make the installation process easier!
 
 NOTE: The (current/v1.9.2) standard beego implementation has a flawed 
-file base session handling, because of this facrt GoBox uses a custom beego build (https://github.com/guerillagrow/beego)
+file base session handling, because of this facrt GoBox uses a custom beego build (https://github.com/astaxie/beego)
 
 Big thanks to the developers of gobot.io! They made it so muche easier for me. Check it out at: https://gobot.io/
 

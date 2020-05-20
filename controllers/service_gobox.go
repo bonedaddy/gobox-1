@@ -1,8 +1,7 @@
 package controllers
 
 import (
-	"github.com/guerillagrow/beego"
-	"github.com/guerillagrow/gobox/lib/utils"
+	"github.com/astaxie/beego"
 	gversion "github.com/mcuadros/go-version"
 	//"github.com/guerillagrow/gobox/models"
 )
@@ -13,15 +12,14 @@ type ServiceGoBox struct {
 
 func (c *ServiceGoBox) Get() {
 
-	currentVersion, errs := utils.CurrentGoBoxVersion()
-	localVersion := utils.LocalGoBoxVersion()
-
+	// TODO(bonedaddy): replace
+	currentVersion := "1.0.0"
+	localVersion := "1.0.1"
 	updateable := gversion.Compare(localVersion, currentVersion, "<")
 
 	res := JSONResp{
 		Meta: map[string]interface{}{
 			"status": 200,
-			"errors": errs,
 		},
 		Data: map[string]interface{}{
 			"current_version":  currentVersion,

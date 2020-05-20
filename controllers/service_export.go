@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	arrow "github.com/bmuller/arrow/lib"
-	"github.com/go-ozzo/ozzo-validation"
-	"github.com/guerillagrow/beego"
+	"github.com/astaxie/beego"
+	arrow "github.com/bmuller/arrow"
+	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/guerillagrow/gobox/models"
 	//"github.com/go-ozzo/ozzo-validation/is"
 )

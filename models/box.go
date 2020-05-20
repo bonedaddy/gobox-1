@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/guerillagrow/jstorage"
+	"github.com/guerillagrow/gobox/pkg/jstorage"
 
-	arrow "github.com/bmuller/arrow/lib"
+	arrow "github.com/bmuller/arrow"
 	//"github.com/d2r2/go-i2c"
 
 	"github.com/asdine/storm"
@@ -23,6 +23,7 @@ import (
 	"github.com/asdine/storm/q"
 	"gobot.io/x/gobot"
 	"gobot.io/x/gobot/drivers/gpio"
+
 	//"gobot.io/x/gobot/drivers/i2c"
 	"github.com/guerillagrow/gobox/models/common"
 

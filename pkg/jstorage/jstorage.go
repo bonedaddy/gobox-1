@@ -15,7 +15,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/guerillagrow/tconv"
+	"github.com/guerillagrow/gobox/pkg/tconv"
 )
 
 var ErrEmptySelector error = errors.New("Empty selector!")
